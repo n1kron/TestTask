@@ -13,6 +13,7 @@ class PhotosViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.shadowContainer()
         getDataFromJson()
         
     }

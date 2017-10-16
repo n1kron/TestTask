@@ -28,6 +28,7 @@ class CommentsViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboard()
+        self.shadowContainer()
         textField.delegate = self
     }
     

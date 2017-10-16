@@ -21,6 +21,8 @@ class PostsViewController: UIViewController, UITextFieldDelegate{
         super.viewDidLoad()
         textField.delegate = self
         self.hideKeyboard()
+        self.shadowContainer()
+       
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange,

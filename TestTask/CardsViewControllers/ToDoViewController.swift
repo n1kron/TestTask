@@ -17,6 +17,7 @@ class ToDoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.shadowContainer()
         getDataFromJson()
     }
     
